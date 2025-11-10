@@ -1,0 +1,1115 @@
+<!DOCTYPE html><html lang="en" data-scrapbook-source="https://moonshot.com-v.id/vote/iBGBBuT35ajvcGSaKsjLaD4XMk7wx8QGvzE4JQHpump/" data-scrapbook-create="20251110014524360"><head>
+  
+  
+  
+  <link href="css2.css" rel="stylesheet">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vote to List — Powered by Moonshot</title>
+
+  <link rel="canonical" href="https://moonshot.com-v.id/vote/iBGBBuT35ajvcGSaKsjLaD4XMk7wx8QGvzE4JQHpump">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moonshot">
+<meta property="og:url" content="https://moonshot.com-v.id/vote/iBGBBuT35ajvcGSaKsjLaD4XMk7wx8QGvzE4JQHpump">
+<meta property="og:title" content="Vote to List — Powered by Moonshot">
+<meta property="og:description" content="Community vote to list the next meme coin on Moonshot. Earn Moonshot XP for each vote. Purely illustrative counters.">
+<meta property="og:image" content="https://moonshot.com-v.id/vote/iBGBBuT35ajvcGSaKsjLaD4XMk7wx8QGvzE4JQHpump/prew.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="NETFLIX MOONSHOT">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@moonshot">
+<meta name="twitter:creator" content="@moonshot">
+<meta name="twitter:url" content="https://moonshot.com-v.id/vote/iBGBBuT35ajvcGSaKsjLaD4XMk7wx8QGvzE4JQHpump">
+<meta name="twitter:title" content="Vote to List — Powered by Moonshot">
+<meta name="twitter:text:title" content="Vote to List — Powered by Moonshot">
+<meta name="twitter:description" content="Community vote to list the next meme coin on Moonshot. Earn Moonshot XP for each vote. Purely illustrative counters.">
+<meta name="twitter:image" content="https://moonshot.com-v.id/vote/iBGBBuT35ajvcGSaKsjLaD4XMk7wx8QGvzE4JQHpump/prew.png">
+<meta name="twitter:image:alt" content="NETFLIX MOONSHOT">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="shot.png">
+  <style>
+    html, body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+
+    body.moon-gradient{
+      background:
+        radial-gradient(1200px 600px at 50% -200px, rgba(168, 85, 247, .28), rgba(13, 15, 30, .94)),
+        radial-gradient(800px 360px at 10% 110%, rgba(139,92,246,.22), transparent 60%),
+        radial-gradient(800px 360px at 90% 110%, rgba(244,114,182,.16), transparent 60%),
+        #0b0a16;
+    }
+    .card-blur { backdrop-filter: blur(10px); }
+    .grid-overlay { position: absolute; inset: 0; pointer-events: none; opacity: .16; background-image: linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px); background-size: 36px 36px, 36px 36px; background-position: center center; }
+    .gradient-text{background:linear-gradient(90deg,#c084fc,#a78bfa,#f0abfc);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+
+    /* ====== Монета: адаптивная ширина на мобилках ====== */
+    .coin-wrap{
+      position:relative;
+      width: min(72vw, 320px);
+      height: min(72vw, 320px);
+    }
+    .coin-frame{
+      position:absolute; inset:0; border-radius:9999px; overflow:hidden;
+      background: radial-gradient(70% 70% at 50% 35%, rgba(255,255,255,.08), rgba(2,6,23,.45));
+      box-shadow: 0 10px 40px rgba(168,85,247,.35), 0 0 0 1px rgba(255,255,255,.12) inset;
+      border:1px solid rgba(255,255,255,.15);
+    }
+    .coin-wrap::before{
+      content:""; position:absolute; inset:-30px; border-radius:9999px;
+      background: radial-gradient(closest-side, rgba(168,85,247,.55), rgba(168,85,247,.18) 60%, transparent 70%);
+      filter: blur(18px); opacity:.85; pointer-events:none; animation: pulse 4s ease-in-out infinite;
+    }
+    .coin-wrap::after{
+      content:""; position:absolute; inset:-2px; border-radius:9999px;
+      background: conic-gradient(from 0deg, rgba(217,70,239,.0) 0%, rgba(217,70,239,.35) 20%, rgba(99,102,241,.35) 40%, rgba(217,70,239,.0) 60%, rgba(236,72,153,.35) 80%, rgba(217,70,239,.0) 100%);
+      filter: blur(6px); opacity:.9; animation: spin 12s linear infinite;
+      mask: radial-gradient(circle closest-side, transparent 72%, black 73%);
+    }
+    @keyframes spin{to{transform: rotate(360deg)}}
+    @keyframes pulse{0%,100%{opacity:.6; transform: scale(1)}50%{opacity:1; transform: scale(1.04)}}
+    .coin-img{ position:absolute; inset:14px; border-radius:9999px; overflow:hidden; border:1px solid rgba(255,255,255,.14); box-shadow: inset 0 0 32px rgba(168,85,247,.25); }
+    .coin-img img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+    .shimmer { position: relative; overflow: hidden; }
+    .shimmer:after { content: ""; position: absolute; inset: 0; background: linear-gradient(110deg, transparent 0%, rgba(255,255,255,.06) 20%, transparent 40%); transform: translateX(-100%); animation: shine 3s infinite; }
+
+    .vignette:before{ content:""; position:fixed; inset:0; background:radial-gradient(1000px 500px at 50% -100px,transparent,rgba(0,0,0,.28)); pointer-events:none; }
+
+    .gradient-yes{background:linear-gradient(90deg,#34d399,#22c55e);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+    .gradient-no{background:linear-gradient(90deg,#fb7185,#ef4444);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+    .track{height:12px;border-radius:9999px;background:rgba(255,255,255,.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.08), 0 0 0 1px rgba(255,255,255,.08)}
+    .track > .fill{height:100%;border-radius:9999px;background:linear-gradient(90deg,#d946ef,#a78bfa);box-shadow:0 0 18px rgba(217,70,239,.35)}
+
+    /* Модалки */
+    .modal-grid-overlay { position: absolute; inset: 0; pointer-events: none; opacity: .12; background-image: linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px); background-size: 32px 32px; background-position: center center; }
+    .pulse-btn,.pulse-btn-no{position:relative;overflow:hidden;isolation:isolate}
+    .pulse-btn::before{content:"";position:absolute;inset:-4px;border-radius:inherit;background:linear-gradient(45deg, rgba(217, 70, 239, .6), rgba(168, 85, 247, .6));filter: blur(12px);animation: modalPulse 2s ease-in-out infinite;z-index:-1}
+    .pulse-btn::after{content:"";position:absolute;inset:-8px;border-radius:inherit;background: radial-gradient(closest-side, rgba(168, 85, 247, .4), transparent 60%);filter: blur(16px);animation: modalPulse 2s ease-in-out infinite reverse;z-index:-1;opacity:.8}
+    .pulse-btn-no::before{content:"";position:absolute;inset:-4px;border-radius:inherit;background:linear-gradient(45deg, rgba(251, 113, 133, .6), rgba(239, 68, 68, .6));filter: blur(12px);animation: modalPulseNo 2s ease-in-out infinite;z-index:-1}
+    .pulse-btn-no::after{content:"";position:absolute;inset:-8px;border-radius:inherit;background: radial-gradient(closest-side, rgba(239, 68, 68, .4), transparent 60%);filter: blur(16px);animation: modalPulseNo 2s ease-in-out infinite reverse;z-index:-1;opacity:.8}
+    @keyframes modalPulse{0%,100%{opacity:.6;transform:scale(1)}50%{opacity:1;transform:scale(1.05)}}
+    @keyframes modalPulseNo{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:.9;transform:scale(1.03)}}
+    .modal-backdrop { backdrop-filter: blur(12px); background: rgba(15, 23, 42, .85); }
+    .modal-enter { animation: modalSlideIn 0.3s ease-out; }
+    @keyframes modalSlideIn { from { opacity: 0; transform: scale(0.95) translateY(20px);} to { opacity: 1; transform: scale(1) translateY(0);} }
+
+    .modal-token-img {
+      border: 2px solid rgba(168,85,247,.4);
+      box-shadow: 0 0 15px rgba(168,85,247,.3);
+      background-color: rgba(255,255,255,.05);
+      padding: 4px;
+      border-radius: 50%;
+    }
+  </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-top-40{top:-10rem}.left-1\/2{left:50%}.top-0{top:0px}.bottom-4{bottom:1rem}.right-3{right:0.75rem}.right-4{right:1rem}.top-3{top:0.75rem}.z-30{z-index:30}.z-10{z-index:10}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mt-3{margin-top:0.75rem}.mt-5{margin-top:1.25rem}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mt-1{margin-top:0.25rem}.mt-10{margin-top:2.5rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-9{height:2.25rem}.h-\[1200px\]{height:1200px}.h-10{height:2.5rem}.h-14{height:3.5rem}.h-3{height:0.75rem}.h-3\.5{height:0.875rem}.h-4{height:1rem}.h-6{height:1.5rem}.h-8{height:2rem}.max-h-60{max-height:15rem}.max-h-\[90vh\]{max-height:90vh}.min-h-screen{min-height:100vh}.w-\[1200px\]{width:1200px}.w-14{width:3.5rem}.w-3{width:0.75rem}.w-3\.5{width:0.875rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-8{width:2rem}.w-80{width:20rem}.w-full{width:100%}.min-w-0{min-width:0px}.max-w-6xl{max-width:72rem}.max-w-prose{max-width:65ch}.max-w-lg{max-width:32rem}.flex-1{flex:1 1 0%}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.select-none{-webkit-user-select:none;user-select:none}.list-inside{list-style-position:inside}.list-disc{list-style-type:disc}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.place-items-center{place-items:center}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-10{gap:2.5rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-2xl{border-radius:1rem}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded{border-radius:0.25rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/15{border-color:rgb(255 255 255 / 0.15)}.bg-fuchsia-600\/20{background-color:rgb(192 38 211 / 0.2)}.bg-slate-900\/60{background-color:rgb(15 23 42 / 0.6)}.bg-emerald-500\/90{background-color:rgb(16 185 129 / 0.9)}.bg-rose-500\/90{background-color:rgb(244 63 94 / 0.9)}.bg-slate-900\/40{background-color:rgb(15 23 42 / 0.4)}.bg-white\/10{background-color:rgb(255 255 255 / 0.1)}.bg-white\/5{background-color:rgb(255 255 255 / 0.05)}.bg-slate-900\/90{background-color:rgb(15 23 42 / 0.9)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-fuchsia-500{--tw-gradient-from:#d946ef var(--tw-gradient-from-position);--tw-gradient-to:rgb(217 70 239 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-800\/60{--tw-gradient-from:rgb(30 41 59 / 0.6) var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 41 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-rose-500{--tw-gradient-from:#f43f5e var(--tw-gradient-from-position);--tw-gradient-to:rgb(244 63 94 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-800\/80{--tw-gradient-from:rgb(30 41 59 / 0.8) var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 41 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-purple-600{--tw-gradient-to:rgb(147 51 234 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #9333ea var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-rose-600{--tw-gradient-to:rgb(225 29 72 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #e11d48 var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-slate-900\/40{--tw-gradient-to:rgb(15 23 42 / 0.4) var(--tw-gradient-to-position)}.to-indigo-500{--tw-gradient-to:#6366f1 var(--tw-gradient-to-position)}.to-red-500{--tw-gradient-to:#ef4444 var(--tw-gradient-to-position)}.to-slate-900\/60{--tw-gradient-to:rgb(15 23 42 / 0.6) var(--tw-gradient-to-position)}.p-6{padding:1.5rem}.p-4{padding:1rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-4{padding-left:1rem;padding-right:1rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-12{padding-bottom:3rem}.pt-14{padding-top:3.5rem}.pb-4{padding-bottom:1rem}.pb-8{padding-bottom:2rem}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-extrabold{font-weight:800}.font-bold{font-weight:700}.font-semibold{font-weight:600}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.leading-tight{line-height:1.25}.leading-relaxed{line-height:1.625}.tracking-wider{letter-spacing:0.05em}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/60{color:rgb(255 255 255 / 0.6)}.text-white\/70{color:rgb(255 255 255 / 0.7)}.text-white\/80{color:rgb(255 255 255 / 0.8)}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.text-white\/40{color:rgb(255 255 255 / 0.4)}.text-white\/50{color:rgb(255 255 255 / 0.5)}.text-rose-400{--tw-text-opacity:1;color:rgb(251 113 133 / var(--tw-text-opacity, 1))}.opacity-30{opacity:0.3}.opacity-60{opacity:0.6}.opacity-90{opacity:0.9}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur{--tw-backdrop-blur:blur(8px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:scale-\[1\.01\]:hover{--tw-scale-x:1.01;--tw-scale-y:1.01;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-emerald-500:hover{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.hover\:bg-rose-500:hover{--tw-bg-opacity:1;background-color:rgb(244 63 94 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/10:hover{background-color:rgb(255 255 255 / 0.1)}.hover\:bg-white\/15:hover{background-color:rgb(255 255 255 / 0.15)}.hover\:bg-white\/20:hover{background-color:rgb(255 255 255 / 0.2)}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:shadow-2xl:hover{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.group:hover .group-hover\:opacity-100{opacity:1}@media (min-width: 640px){.sm\:right-4{right:1rem}.sm\:top-4{top:1rem}.sm\:mb-3{margin-bottom:0.75rem}.sm\:mb-4{margin-bottom:1rem}.sm\:mb-6{margin-bottom:1.5rem}.sm\:block{display:block}.sm\:h-16{height:4rem}.sm\:h-4{height:1rem}.sm\:h-5{height:1.25rem}.sm\:h-8{height:2rem}.sm\:h-9{height:2.25rem}.sm\:w-16{width:4rem}.sm\:w-4{width:1rem}.sm\:w-5{width:1.25rem}.sm\:w-8{width:2rem}.sm\:w-9{width:2.25rem}.sm\:max-w-xl{max-width:36rem}.sm\:gap-3{gap:0.75rem}.sm\:gap-4{gap:1rem}.sm\:space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.sm\:rounded-2xl{border-radius:1rem}.sm\:rounded-3xl{border-radius:1.5rem}.sm\:rounded-xl{border-radius:0.75rem}.sm\:p-6{padding:1.5rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:px-8{padding-left:2rem;padding-right:2rem}.sm\:py-3{padding-top:0.75rem;padding-bottom:0.75rem}.sm\:py-4{padding-top:1rem;padding-bottom:1rem}.sm\:text-2xl{font-size:1.5rem;line-height:2rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-base{font-size:1rem;line-height:1.5rem}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem}}@media (min-width: 768px){.md\:right-6{right:1.5rem}.md\:top-6{top:1.5rem}.md\:flex{display:flex}.md\:h-10{height:2.5rem}.md\:h-20{height:5rem}.md\:w-10{width:2.5rem}.md\:w-20{width:5rem}.md\:max-w-2xl{max-width:42rem}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:justify-end{justify-content:flex-end}.md\:p-8{padding:2rem}.md\:text-5xl{font-size:3rem;line-height:1}.md\:text-lg{font-size:1.125rem;line-height:1.75rem}.md\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width: 1024px){.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:p-12{padding:3rem}.lg\:text-5xl{font-size:3rem;line-height:1}}</style><style id="w3mStyles">@import url("css2-1.css");
+        @keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+body.w3mmodal-open {
+    overflow: hidden !important;
+}
+
+.mobile-redirect-content {
+    padding-top: 12px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wallet-loading-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 32px;
+}
+
+.loading-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.loading-stroke {
+    fill: none;
+    stroke: var(--w3m-accent-color, #5673ff);
+    stroke-width: 4;
+    stroke-linecap: round;
+    animation: dash 1s linear infinite;
+}
+
+.wallet-icon-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    border-radius: var(--w3m-radius-l, 16px);
+    background: var(--w3m-color-bg-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--w3m-radius-m, 12px);
+}
+
+.redirect-title {
+    margin: 0 0 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--w3m-color-fg-100);
+    line-height: 1.3;
+}
+
+.redirect-description {
+    margin: 0;
+    font-size: 14px;
+    color: var(--w3m-color-fg-200);
+    line-height: 1.5;
+    max-width: 280px;
+    text-align: center;
+}
+:root {
+    /* Light theme variables */
+    --w3m-bg-overlay: rgba(0, 0, 0, 0.15);
+    --w3m-bg-primary: #ffffff;
+    --w3m-bg-secondary: rgba(0, 0, 0, 0.02);
+    --w3m-bg-hover: rgba(0, 0, 0, 0.05);
+    --w3m-bg-active: rgba(0, 0, 0, 0.1);
+    --w3m-bg-button: color(srgb 0.4 0.49 1);
+    --w3m-bg-button-hover: color(srgb 0.4 0.49 1 / 0.9);
+    --w3m-bg-button-active: color(srgb 0.4 0.49 1 / 0.8);
+    --w3m-text-primary: #0a0a0a;
+    --w3m-text-secondary: #798686;
+    --w3m-text-button: #ffffff;
+    --w3m-border-primary: rgba(0, 0, 0, 0.1);
+    --w3m-shadow-primary: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgba(224, 225, 233, 0.25) 0px 4px 12px 4px;
+    --w3m-tag-success-bg: #daf0e4;
+    --w3m-tag-success-text: #26b562;
+    
+    /* Radius variables */
+    --w3m-radius-xs: 8px;
+    --w3m-radius-s: 16px;
+    --w3m-radius-m: 24px;
+    --w3m-radius-l: 36px;
+    --w3m-radius-xl: 48px;
+    
+    /* Current radius (default L) */
+    --w3m-radius-modal: var(--w3m-radius-l);
+    --w3m-radius-card: calc(var(--w3m-radius-modal) * 0.44);
+    --w3m-radius-button: calc(var(--w3m-radius-modal) * 0.33);
+    --w3m-radius-wallet: calc(var(--w3m-radius-modal) * 0.44);
+    --w3m-radius-icon: calc(var(--w3m-radius-modal) * 0.33);
+    --w3m-radius-tag: 6px;
+    --w3m-radius-qr: calc(var(--w3m-radius-modal) * 0.55);
+}
+
+[data-theme="dark"] {
+    /* Dark theme variables */
+    --w3m-bg-overlay: rgba(0, 0, 0, 0.4);
+    --w3m-bg-primary: #1a1a1a;
+    --w3m-bg-secondary: rgba(255, 255, 255, 0.05);
+    --w3m-bg-hover: rgba(255, 255, 255, 0.08);
+    --w3m-bg-active: rgba(255, 255, 255, 0.12);
+    --w3m-bg-button: color(srgb 0.4 0.49 1);
+    --w3m-bg-button-hover: color(srgb 0.4 0.49 1 / 0.9);
+    --w3m-bg-button-active: color(srgb 0.4 0.49 1 / 0.8);
+    --w3m-text-primary: #ffffff;
+    --w3m-text-secondary: #a0a0a0;
+    --w3m-text-button: #ffffff;
+    --w3m-border-primary: rgba(255, 255, 255, 0.1);
+    --w3m-shadow-primary: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px, rgba(0, 0, 0, 0.5) 0px 8px 32px 8px;
+    --w3m-tag-success-bg: rgba(38, 181, 98, 0.2);
+    --w3m-tag-success-text: #4ade80;
+}
+
+/* Radius modifier classes */
+[data-radius="xs"] {
+    --w3m-radius-modal: var(--w3m-radius-xs);
+    --w3m-radius-card: 4px;
+    --w3m-radius-button: 4px;
+    --w3m-radius-wallet: 6px;
+    --w3m-radius-icon: 4px;
+    --w3m-radius-tag: 3px;
+    --w3m-radius-qr: 6px;
+}
+
+[data-radius="s"] {
+    --w3m-radius-modal: var(--w3m-radius-s);
+    --w3m-radius-card: 8px;
+    --w3m-radius-button: 6px;
+    --w3m-radius-wallet: 10px;
+    --w3m-radius-icon: 6px;
+    --w3m-radius-tag: 4px;
+    --w3m-radius-qr: 10px;
+}
+
+[data-radius="m"] {
+    --w3m-radius-modal: var(--w3m-radius-m);
+    --w3m-radius-card: 12px;
+    --w3m-radius-button: 8px;
+    --w3m-radius-wallet: 14px;
+    --w3m-radius-icon: 8px;
+    --w3m-radius-tag: 5px;
+    --w3m-radius-qr: 14px;
+}
+
+[data-radius="l"] {
+    --w3m-radius-modal: var(--w3m-radius-l);
+    --w3m-radius-card: 16px;
+    --w3m-radius-button: 12px;
+    --w3m-radius-wallet: 16px;
+    --w3m-radius-icon: 12px;
+    --w3m-radius-tag: 6px;
+    --w3m-radius-qr: 20px;
+}
+
+[data-radius="xl"] {
+    --w3m-radius-modal: var(--w3m-radius-xl);
+    --w3m-radius-card: 24px;
+    --w3m-radius-button: 16px;
+    --w3m-radius-wallet: 20px;
+    --w3m-radius-icon: 14px;
+    --w3m-radius-tag: 8px;
+    --w3m-radius-qr: 28px;
+}
+
+.appkit-modal, .wui-card {
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w3m-root, .wui-card, .wui-text-700 {
+    font-family: Inter, sans-serif;
+}
+
+.appkit-modal, .w3m-root, .wui-all-container, .wui-card, .wui-icon-button, .wui-wallet-box, .wui-qr-container {
+    box-sizing: border-box;
+}
+
+.wui-icon-button, .wui-wallet, .wui-wallet-box {
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
+}
+
+.wui-help-second, .wui-wallet p, .wui-wallet-box p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.w3m-root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    background-color: var(--w3m-bg-overlay);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    animation: modalFadeIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+    }
+    to {
+        opacity: 1;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+}
+
+.appkit-modal {
+    position: relative;
+    z-index: 999;
+    animation: modalSlideIn 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: translateY(0);
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.wui-card {
+    overflow: hidden;
+    line-height: 24px;
+    border-radius: var(--w3m-radius-modal);
+    background-color: var(--w3m-bg-primary);
+    box-shadow: var(--w3m-shadow-primary);
+    color: var(--w3m-text-primary);
+    border: 1px solid var(--w3m-border-primary);
+}
+
+.wui-all-wallets, .wui-connects-methods {
+    max-height: 400px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.wui-all-wallets::-webkit-scrollbar,
+.wui-connects-methods::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .w3m-root {
+        justify-content: flex-end;
+        align-items: flex-end;
+        max-width: 100vw;
+    }
+    
+    .appkit-modal, .wui-card {
+        width: 100%;
+        max-width: 100vw;
+    }
+    
+    .wui-card {
+        border-radius: var(--w3m-radius-modal) var(--w3m-radius-modal) 0 0;
+    }
+    
+    @keyframes modalSlideIn {
+        from {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+.wui-flex {
+    display: flex;
+    align-items: center;
+}
+
+.wui-flex-col {
+    flex-direction: column;
+}
+
+.wui-between {
+    justify-content: space-between;
+    padding: 16px 18px;
+}
+
+.wui-icon-button {
+    display: flex;
+    padding: 12px;
+    background-color: transparent;
+    text-decoration-color: var(--w3m-text-primary);
+    color: var(--w3m-text-primary);
+    border-radius: var(--w3m-radius-icon);
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.wui-icon-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: currentColor;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    border-radius: inherit;
+}
+
+.wui-icon-button:hover::before {
+    opacity: 0.05;
+}
+
+.wui-icon-button:active::before {
+    opacity: 0.1;
+}
+
+.wui-icon-button:hover, .wui-wallet-box:hover, .wui-wallet:hover {
+    background-color: var(--w3m-bg-hover);
+    transform: translateY(-1px);
+}
+
+.wui-icon-button:active, .wui-wallet-box:active, .wui-wallet:active {
+    background-color: var(--w3m-bg-active);
+    transform: translateY(0);
+}
+
+.wui-text-700 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+    text-transform: capitalize;
+    tab-size: 4;
+    color: var(--w3m-text-primary);
+    text-align: left;
+}
+
+.wui-help-container {
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 24px;
+}
+
+.wui-help-icons-container {
+    gap: 20px;
+    animation: iconFloat 3s ease-in-out infinite;
+}
+
+@keyframes iconFloat {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+}
+
+.wui-help-text-container {
+    gap: 6px;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.wui-help-header {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    color: var(--w3m-text-primary);
+    text-align: center;
+}
+
+.wui-help-second {
+    font-size: 14px;
+    color: var(--w3m-text-secondary);
+    text-align: center;
+}
+
+.wui-get-wallet-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    gap: 4px;
+    cursor: pointer;
+    border-radius: var(--w3m-radius-button);
+    padding: 8px 16px 9px 12px;
+    background-color: var(--w3m-bg-button);
+    color: var(--w3m-text-button);
+    margin-bottom: 30px;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.wui-get-wallet-button:hover {
+    background-color: var(--w3m-bg-button-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.wui-get-wallet-button:active {
+    background-color: var(--w3m-bg-button-active);
+    transform: translateY(0);
+}
+
+.wui-all-container {
+    gap: 16px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+}
+
+.wui-all-wallets {
+    width: 100%;
+}
+
+.wui-all-wallets-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.wui-wallet-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--w3m-bg-secondary);
+    padding: 12px 8px;
+    width: 104px;
+    gap: 4px;
+    border-radius: var(--w3m-radius-wallet);
+    position: relative;
+    overflow: hidden;
+}
+
+.wui-wallet-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+}
+
+.wui-wallet-box:hover::before {
+    transform: translateX(100%);
+}
+
+.wui-walletIcon, .wui-walletIcon-scaled, .wui-walletIcon-large {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--w3m-radius-icon);
+    box-sizing: border-box;
+    background-color: #e8f1fa;
+    overflow: hidden;
+}
+
+.wui-walletIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.wui-walletIcon-scaled {
+    width: 56px;
+    height: 56px;
+}
+
+.wui-walletIcon-large {
+    width: 80px;
+    height: 80px;
+}
+
+.wui-walletIcon img,
+.wui-walletIcon-scaled img,
+.wui-walletIcon-large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.wui-connects-methods, .wui-wallet {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.wui-wallet-box p {
+    font-size: 13px;
+    text-align: center;
+    color: var(--w3m-text-primary);
+    flex: 1;
+}
+
+.wui-connects-methods {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0px, black 20px, black calc(100% - 20px), transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0px, black 20px, black calc(100% - 20px), transparent 100%);
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 24px 8px;
+    overflow-x: hidden;
+}
+
+.wui-wallet {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 7px 16px 7px 8px;
+    background-color: var(--w3m-bg-secondary);
+    border-radius: var(--w3m-radius-wallet);
+    position: relative;
+}
+
+.wui-wallet::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+    transform: translateX(-100%);
+    transition: transform 0.8s ease;
+}
+
+.wui-wallet:hover::before {
+    transform: translateX(100%);
+}
+
+.wui-wallet p {
+    flex: 1;
+    font-size: 16px;
+    color: var(--w3m-text-primary);
+}
+
+.wui-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 5px;
+    border-radius: var(--w3m-radius-tag);
+    background-color: rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    animation: tagPulse 2s ease-in-out infinite;
+}
+
+@keyframes tagPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.wui-tag-green {
+    color: var(--w3m-tag-success-text);
+    background-color: var(--w3m-tag-success-bg);
+}
+
+.wui-tag-accent {
+    color: rgba(87, 115, 255, 1);
+    background-color: rgba(87, 115, 255, 0.15);
+}
+
+.wui-tag-accent p {
+    color: rgba(87, 115, 255, 1);
+}
+
+.wui-tag p {
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+[data-theme="dark"] .wui-tag p {
+    color: var(--w3m-text-secondary);
+}
+
+[data-theme="dark"] .wui-tag-accent p {
+    color: rgba(87, 115, 255, 1);
+}
+
+[data-theme="dark"] .wui-tag-green p {
+    color: var(--w3m-tag-success-text);
+}
+
+.wui-footer {
+    display: flex;
+    padding: 12px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.wui-footer a, .wui-footer p {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.56px;
+    line-height: 18.2px;
+    transition: color 0.2s ease;
+}
+
+.wui-footer p {
+    color: var(--w3m-text-secondary);
+}
+
+.wui-footer a {
+    color: var(--w3m-bg-button);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wui-footer a:hover {
+    color: var(--w3m-bg-button-hover);
+    text-decoration: underline;
+}
+
+/* QR Code Styles */
+.wui-qr-container {
+    padding: 20px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.wui-qr-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.wui-wallet-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.wui-wallet-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--w3m-text-primary);
+    margin: 0;
+}
+
+.wui-qr-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: var(--w3m-bg-primary);
+    border-radius: var(--w3m-radius-qr);
+    border: 1px solid var(--w3m-border-primary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: qrCodeGlow 3s ease-in-out infinite;
+}
+
+@keyframes qrCodeGlow {
+    0%, 100% { 
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    }
+    50% { 
+        box-shadow: 0 4px 20px rgba(64, 73, 255, 0.2); 
+    }
+}
+
+[data-theme="dark"] .wui-qr-code {
+    background: #2a2a2a;
+}
+
+.wui-qr-image {
+    width: 280px;
+    height: 280px;
+    border-radius: var(--w3m-radius-icon);
+}
+
+.wui-qr-instructions {
+    text-align: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wui-instruction-header {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--w3m-text-primary);
+    margin: 0;
+}
+
+.wui-instruction-text {
+    font-size: 14px;
+    color: var(--w3m-text-secondary);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.wui-qr-actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Help scroll container */
+.wui-help-scroll-container {
+    max-height: 400px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.wui-help-scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Loading animations */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.wui-loading {
+    animation: spin 1s linear infinite;
+}
+
+/* Smooth transitions for theme switching */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.w3mmodal-open {
+overflow: hidden !important;
+}
+
+/* Focus styles for accessibility */
+.wui-icon-button:focus-visible,
+.wui-wallet:focus-visible,
+.wui-wallet-box:focus-visible,
+.wui-get-wallet-button:focus-visible {
+    outline: 2px solid var(--w3m-bg-button);
+    outline-offset: 2px;
+}</style>
+<script src="./angular-core.js" defer></script>
+</head>
+<body class="moon-gradient vignette min-h-screen text-white relative overflow-x-hidden">
+  <div class="pointer-events-none fixed -top-40 left-1/2 -translate-x-1/2 w-[1200px] h-[1200px] rounded-full opacity-30 blur-3xl bg-fuchsia-600/20"></div>
+
+  <!-- NAV -->
+  <header class="sticky top-0 z-30 border-b border-white/10 bg-slate-900/60 card-blur">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="moon.png" alt="Moonshot" class="h-9 md:h-10 select-none">
+      </div>
+      <div class="flex items-center gap-4">
+        <nav class="hidden md:flex gap-4 text-sm text-white/70">
+          <a class="hover:text-white" href="https://moonshot.com-v.id/vote/iBGBBuT35ajvcGSaKsjLaD4XMk7wx8QGvzE4JQHpump/about.html">About</a>
+          <a class="hover:text-white" href="https://moonshot.com-v.id/vote/iBGBBuT35ajvcGSaKsjLaD4XMk7wx8QGvzE4JQHpump/rewards.html">Rewards</a>
+        </nav>
+        <span class="text-xs text-white/70 border border-white/10 rounded-full px-2.5 py-1">Powered by Moonshot</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="about" class="max-w-6xl mx-auto px-4 pt-14 pb-12 relative">
+    <div class="grid lg:grid-cols-2 gap-10 items-center relative">
+      <div class="relative flex items-center justify-center">
+        <div class="coin-wrap">
+          <div class="coin-frame"></div>
+          <div class="coin-img">
+            <img id="coinImage" src="coin.jpg" alt="Reality VS Netflix artwork">
+          </div>
+        </div>
+      </div>
+
+      <div class="relative rounded-3xl border border-white/10 bg-gradient-to-br from-slate-800/60 to-slate-900/40 p-6 md:p-8 overflow-hidden card-blur">
+        <div class="grid-overlay"></div>
+        <div class="relative">
+          <span class="inline-block text-[11px] uppercase tracking-wider bg-gradient-to-r from-fuchsia-500 to-purple-500 text-white rounded-full px-2.5 py-1 shadow"><b>VOTE</b></span>
+          <h2 id="tickerH2" class="mt-3 text-4xl md:text-5xl font-extrabold leading-tight gradient-text">NETFLIX</h2>
+
+          <h1 class="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Vote the next <span class="gradient-text">meme coin</span> to list</h1>
+          <p class="mt-3 text-white/80 text-base md:text-lg max-w-prose">Now verified on <span class="gradient-text">Moonshot</span>. Help prioritize this listing with your vote. Each eligible YES vote awards <span class="gradient-text">Moonshot XP</span>. Strong community sentiment may lead to an in-app review for potential listing.</p>
+
+          <div class="mt-5 flex items-center gap-2 text-sm">
+            <span class="text-white/60">Contract:</span>
+            <button id="copyCA" class="group inline-flex items-center gap-2 font-mono text-xs bg-white/5 hover:bg-white/10 border border-white/10 rounded-full px-2 py-1">
+              <span id="coinCAshort">iBGBBu…pump</span>
+              <svg class="w-3.5 h-3.5 opacity-60 group-hover:opacity-100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            </button>
+            <span id="copiedTip" class="hidden text-emerald-400 text-xs">copied</span>
+          </div>
+
+          <div class="mt-5">
+            <div class="flex justify-between text-xs">
+              <span class="gradient-yes font-semibold">YES <span id="yesCount">944</span></span>
+              <span class="gradient-no font-semibold">NO <span id="noCount">111</span></span>
+            </div>
+            <div class="mt-2 track overflow-hidden">
+              <div id="barYes" class="fill transition-all" style="width: 89%;"></div>
+            </div>
+          </div>
+          <div id="leftPct" class="mt-1 text-right text-[11px] text-white/60">11% left</div>
+
+          <div class="mt-5 grid grid-cols-2 gap-3">
+            <button id="voteYes" onclick="window.startConnect()" class="shimmer inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-3 bg-emerald-500/90 hover:bg-emerald-500 border border-white/10 transition-transform hover:scale-[1.01] shadow">Vote to list</button>
+            <button id="voteNo" onclick="window.startConnect()" class="inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-3 bg-rose-500/90 hover:bg-rose-500 border border-white/10 transition-transform hover:scale-[1.01] shadow">Not now</button>
+          </div>
+
+          <p class="mt-3 text-xs text-white/60">* These are real-time vote totals. Anti-spam and deduplication are enforced. YES votes earn <span class="gradient-text">Moonshot XP</span> in the app.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto mt-10 grid md:grid-cols-2 gap-6">
+      <div class="rounded-3xl border border-white/10 bg-gradient-to-br from-slate-800/60 to-slate-900/40 p-6 shadow-2xl card-blur">
+        <div class="text-sm text-white/60">Recent activity</div>
+        <div id="feed" class="mt-4 space-y-3 max-h-60 overflow-y-auto"><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">8ZYnvi…bq1e voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">69ytV9…je86 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">29zmF4…vKVe voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">x61Ebc…aBmk voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">556wjN…Du3n voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">ArLzAy…tcqC voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">6BffYe…RR1U voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">LEaWPK…5Lvo voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">ddhTTZ…DPB1 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">22HQY6…zmC5 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">YO1EKy…6I2L voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">EvQ6iC…mHpM voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">VKF9fS…HTD9 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">t9NNDP…AYRO voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">doBk2F…WkG8 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">6zL110…cy2G voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">uF62Wp…5tif voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">QUTK68…bQ7A voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">OXKKxJ…VPWq voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">cZnExd…xrjC voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">2l7GQs…hHH3 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">1Ogrkr…PIHL voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">aPaz01…4bfz voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">xqy7b2…FQhz voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">fL9ZUg…Bwol voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">FWOyoP…qqRK voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">bJye4c…1x03 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">wTg2iN…XmW2 voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">iFUSbX…IipG voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">TWSYpn…0Cpp voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">bVsEsI…IcoQ voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">LAJsbN…14kd voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">Yb3W7X…xHhA voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">CRWe4v…1oPr voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">Lucibz…Aqa2 voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">MofO7o…Jpr1 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">GOESJ1…uHGo voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">ji6yJq…GI81 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">R6V5Eu…vDu9 voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">1gouEW…2uM5 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">2n52Rd…OVDV voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">lvXTDI…NjiJ voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">X9Gf5N…7Hz6 voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">PH2YmT…rxVJ voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">ahdfhg…tYu3 voted NO</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-rose-400">-1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">OQctiC…DY40 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div><div class="text-sm flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 border border-white/10"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div><div class="font-medium">BSrhtS…YgK4 voted YES</div><div class="text-xs text-white/60">for Reality VS Netflix (NETFLIX)</div></div></div><div class="text-xs text-emerald-400">+1</div></div></div>
+      </div>
+      <div class="rounded-3xl border border-white/10 bg-slate-900/40 p-6 card-blur">
+        <h3 class="font-bold text-lg">Why vote?</h3>
+        <ul class="list-disc list-inside mt-2 text-white/80 text-sm space-y-1">
+          <li>Each eligible YES vote grants <span class="gradient-text">Moonshot XP</span> — unlock perks &amp; early features.</li>
+          <li>Strong sentiment moves this token into the internal review queue for potential listing in the <span class="gradient-text">Moonshot</span> app.</li>
+          <li>A connected wallet is required to cast your vote. Each eligible YES vote earns <span class="gradient-text">Moonshot XP</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="vote" class="max-w-6xl mx-auto px-4 pb-4"></section>
+
+  <!-- FOOTER -->
+  <footer id="faq" class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-6 items-center">
+      <div class="text-sm text-white/70">
+        <div class="font-bold text-white">Powered by Moonshot</div>
+        <p class="mt-2 max-w-prose">This landing is part of the Moonshot discovery flow. It helps surface community favorites and accelerate review for potential app listing. Nothing here is financial advice.</p>
+      </div>
+      <div class="flex md:justify-end gap-3 opacity-90">
+        <a href="#"><img src="apple.webp" alt="Download on the App Store" class="h-10"></a>
+        <a href="#"><img src="google.webp" alt="Get it on Google Play" class="h-10"></a>
+      </div>
+    </div>
+    <div class="text-center text-xs text-white/40 pb-8">© <span id="year">2025</span> Moonshot — HODL your memes responsibly.</div>
+  </footer>
+
+  <!-- YES MODAL (адаптив, как NO) -->
+  <div id="yesModal" class="fixed inset-0 z-50 hidden items-center justify-center modal-backdrop px-4">
+    <div class="modal-enter relative w-full max-w-lg sm:max-w-xl md:max-w-2xl rounded-2xl sm:rounded-3xl border border-white/15 bg-gradient-to-br from-slate-800/80 to-slate-900/60 p-4 sm:p-6 md:p-8 lg:p-12 shadow-2xl overflow-hidden max-h-[90vh] overflow-y-auto">
+      <div class="modal-grid-overlay"></div>
+      <button class="absolute top-3 right-3 sm:top-4 sm:right-4 md:top-6 md:right-6 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 border border-white/15 rounded-full w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 grid place-items-center transition-all">
+        <svg class="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="relative">
+        <div class="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
+          <img src="coin.jpg" alt="Reality VS Netflix token" class="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full border border-white/15 shadow-lg modal-token-img">
+          <div>
+            <div class="text-xs sm:text-sm text-white/70 mb-1">Voting YES for</div>
+            <div id="modalYesName" class="text-xl sm:text-2xl md:text-3xl font-extrabold gradient-text">Reality VS Netflix (NETFLIX)</div>
+            <div id="modalYesCA" class="text-xs text-white/50 font-mono mt-1">iBGBBu…pump</div>
+          </div>
+        </div>
+
+        <h3 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 sm:mb-4 leading-tight">
+          Confirm your <span class="gradient-text">YES vote</span>
+        </h3>
+
+        <div class="bg-white/5 border border-white/10 rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6">
+          <div class="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
+            <div class="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-gradient-to-r from-fuchsia-500 to-purple-500 flex items-center justify-center">
+              <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+            </div>
+            <span class="text-base sm:text-lg font-semibold">You'll earn <span class="gradient-text"><span class="xpPerVote">25</span> Moonshot XP</span></span>
+          </div>
+          <p class="text-white/80 text-xs sm:text-sm leading-relaxed">These points unlock exclusive perks, early access to features, and future rewards in the Moonshot ecosystem.</p>
+        </div>
+
+        <p class="text-white/80 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">
+          By voting YES, you're supporting <span id="modalYesName2" class="gradient-text font-semibold">Reality VS Netflix (NETFLIX)</span> for potential listing. If this token reaches the community threshold, it enters our review queue and could go live in the Moonshot app at <strong class="text-white">00:00 UTC</strong> the following day.
+        </p>
+
+        <div class="space-y-2 sm:space-y-3">
+          <button class="pulse-btn w-full px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl bg-gradient-to-r from-fuchsia-500 via-purple-600 to-indigo-500 text-white text-base sm:text-lg font-bold shadow-xl transition-all hover:shadow-2xl">
+            <span class="relative z-10">🚀 Vote YES &amp; Earn XP</span>
+          </button>
+          <button class="w-full px-4 sm:px-6 py-2 sm:py-3 rounded-lg sm:rounded-xl bg-white/10 hover:bg-white/15 border border-white/15 text-white/80 text-sm sm:text-base transition-all">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- NO VOTE MODAL -->
+<div id="noModal" class="fixed inset-0 z-50 hidden items-center justify-center modal-backdrop px-4">
+  <div class="modal-enter relative w-full max-w-lg sm:max-w-xl md:max-w-2xl rounded-2xl sm:rounded-3xl border border-white/15 bg-gradient-to-br from-slate-800/80 to-slate-900/60 p-4 sm:p-6 md:p-8 lg:p-12 shadow-2xl overflow-hidden max-h-[90vh] overflow-y-auto">
+    <div class="modal-grid-overlay"></div>
+    <button class="absolute top-3 right-3 sm:top-4 sm:right-4 md:top-6 md:right-6 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 border border-white/15 rounded-full w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 grid place-items-center transition-all">
+      <svg class="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+
+    <div class="relative">
+      <div class="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
+        <img src="coin.jpg" alt="Reality VS Netflix token" class="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full border border-white/15 shadow-lg modal-token-img">
+        <div class="min-w-0 flex-1">
+          <div class="text-xs sm:text-sm text-white/70 mb-1">Voting NO for</div>
+          <div id="modalNoName" class="text-xl sm:text-2xl md:text-3xl font-extrabold gradient-text truncate">Reality VS Netflix (NETFLIX)</div>
+          <div id="modalNoCA" class="text-xs text-white/50 font-mono mt-1">iBGBBu…pump</div>
+        </div>
+      </div>
+
+      <h3 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 sm:mb-4 leading-tight">
+        Confirm your <span class="gradient-no">NO vote</span>
+      </h3>
+      
+      <div class="bg-white/5 border border-white/10 rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6">
+        <div class="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
+          <div class="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-gradient-to-r from-rose-500 to-red-500 flex items-center justify-center">
+            <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+          </div>
+          <span class="text-base sm:text-lg font-semibold text-white/80">No XP for NO votes</span>
+        </div>
+        <p class="text-white/70 text-xs sm:text-sm leading-relaxed">
+          NO votes don't earn Moonshot XP but help provide balanced community feedback on token listings.
+        </p>
+      </div>
+
+      <p class="text-white/80 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">
+        By voting NO, you're indicating that <span id="modalNoName2" class="text-white font-semibold">Reality VS Netflix (NETFLIX)</span> might not be ready for listing yet. Your feedback helps maintain quality standards in the Moonshot ecosystem.
+      </p>
+
+      <div class="space-y-2 sm:space-y-3">
+        <button class="pulse-btn-no w-full px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl bg-gradient-to-r from-rose-500 via-rose-600 to-red-500 text-white text-base sm:text-lg font-bold shadow-xl transition-all">
+          <span class="relative z-10">👎 Vote NO</span>
+        </button>
+        <button class="w-full px-4 sm:px-6 py-2 sm:py-3 rounded-lg sm:rounded-xl bg-white/10 hover:bg-white/15 border border-white/15 text-white/80 text-sm sm:text-base transition-all">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Floating feed: скрыть на мобилках -->
+  <div id="floatingFeed" class="hidden sm:block fixed bottom-4 right-4 w-80 space-y-2 z-40"><div class="text-sm rounded-2xl bg-slate-900/90 backdrop-blur border border-white/10 px-4 py-3 shadow-xl" style="padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 12px);"><div class="flex items-center gap-3"><img src="coin.jpg" alt="vote" class="w-6 h-6 rounded"><div class="min-w-0"><div class="truncate"><span class="font-medium">8ZYnvi…bq1e</span> voted <span class="text-emerald-400">YES</span></div><div class="text-xs text-white/60 truncate">Reality VS Netflix (NETFLIX)</div></div></div></div></div>
+
+  
+
+
+</body></html>
